@@ -1,7 +1,7 @@
 # COR-OD
 ### Usage 
 We run the code with torch version: 1.7.0, python version: 3.7.16
-* Train CIFAR100
+* Train MSO-FPC
 ```
 # python train.py --workers 8 --device 0 --batch 32 --data data/coco.yaml --img 640 --cfg models/detect/gelan-c.yaml --weights '' --name gelan-c --hyp hyp.scratch-high.yaml --min-items 0 --epochs 500 --close-mosaic 15
 ```
